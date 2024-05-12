@@ -79,6 +79,23 @@ Nos permite crear ramas desde nuestro código y también visualizarlas.
 Nos permite sincronizar los cambios del repositorio local con el remoto.
 
 
+# **APUNTES DE CLASE GIT - 4ta Clase**
+
+# GitHub y Comandos Relevantes de Git
+
+GitHub es una plataforma de desarrollo colaborativo basada en Git que facilita el trabajo en equipo en proyectos de software. Permite gestionar repositorios de código, hacer seguimiento de problemas, revisar código y alojar documentación. Es ampliamente utilizado en la comunidad de desarrolladores, especialmente en proyectos de código abierto.
+
+## Comandos Relevantes de Git:
+
+- `git clone`: Clona un repositorio remoto en la máquina local.
+- `git pull`: Recupera y fusiona cambios desde un repositorio remoto a la rama local.
+- `git push`: Envía cambios locales al repositorio remoto.
+- `git add`: Agrega archivos modificados al área de preparación.
+- `git commit`: Guarda cambios permanentemente en la historia del proyecto.
+- `git branch`: Crea y gestiona ramas en el repositorio Git.
+
+
+
 
 
 
