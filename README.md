@@ -117,6 +117,30 @@ La integración continua mediante commits frecuentes facilita la integración de
 
 
 
+# APUNTES DE CLASE GIT - 6ta Clase
+## Buenas prácticas en Git
+
+- Utilizar verbos imperativos:
+  - `add`: Añadir un nuevo archivo.
+  - `bash`: ...
+  - `git commit -m "añadimos un nuevo archivo."`: Incorrecto debido al punto final.
+  - `git commit -m "para arreglar un problema..."`: Incorrecto por el uso de puntos suspensivos.
+  - `git commit -m "cambiamos por defecto el sistema del color"`: Correcto, sin errores de sintaxis.
+
+- Limitar los mensajes de commit a un máximo de 50 caracteres.
+- Emplear prefijos para los commits:
+  - `feat`: Nueva característica para el usuario.
+  - `fix`: Corrección de un bug que afecta al usuario.
+  - `perf`: Cambios que mejoran el rendimiento.
+  - `build`: Cambios relacionados con el sistema.
+  - `ci`: Cambios de integración.
+  - `refactor`: Refactorización de código.
+  - `test`: Refactorización de código existente.
+
+
+
+
+
 
 
 
