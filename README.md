@@ -95,6 +95,25 @@ GitHub es una plataforma de desarrollo colaborativo basada en Git que facilita e
 - `git branch`: Crea y gestiona ramas en el repositorio Git.
 
 
+# APUNTES DE CLASE GIT - 5ta Clase
+
+## Git Flow
+
+### Ramas Principales
+
+- **Main:** Destinada al código en producción.
+- **Develop:** Contiene características en fase de prueba.
+
+### Desarrollo Basado en Trunk
+
+La integración continua mediante commits frecuentes facilita la integración de cambios. También se emplean redes de seguridad para revertir despliegues en caso de problemas.
+
+### Estrategias de Fusionado
+
+- **Ship:** Fusiona directamente en la rama principal sin revisión.
+- **Show:** Muestra los cambios para su revisión mediante CI.
+- **Ask:** Abre un PR para discutir los cambios antes de la fusión.
+
 
 
 
