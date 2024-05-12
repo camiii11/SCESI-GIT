@@ -142,6 +142,23 @@ La integración continua mediante commits frecuentes facilita la integración de
 Exploramos métodos para revertir el último commit en Git.
 - `git revert HEAD`
 
+ 
+# APUNTES DE CLASE GIT - 8va Clase
+
+## Hooks en Git
+
+Los hooks son herramientas que activan acciones o scripts ante eventos en Git.
+
+- `pre-commit`: Verificación o ejecución de linters.
+- `prepare-commit-msg`: Modificación o adición de mensajes.
+- `pre-push`: Ejecución de pruebas.
+- `post-checkout` y `post-merge`: Limpieza del directorio tras checkout y merge.
+
+## Alias en Git
+
+Permite crear comandos personalizados para tareas frecuentes.
+
+git config --global alias.[nombre-del-alias] "comando-original"
 
 
 
