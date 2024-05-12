@@ -64,6 +64,21 @@ Para trabajar con ramas en Git, utilizamos los siguientes comandos:
 ¿Por qué? Para mantener limpio el espacio de trabajo.
 - `git branch -d nombreDeRama`: para eliminar una rama específica.
 
+# **APUNTES DE CLASE GIT - 3ra Clase**
+
+## `Git remote origin`
+El comando `git remote origin <url>` permite crear y eliminar conexiones con otros repositorios.
+
+## `Git remote prune origin`
+Nos permite eliminar ramas que ya no existen en el repositorio remoto y que también podemos eliminar en el repositorio local.
+
+## `Git branch`
+Nos permite crear ramas desde nuestro código y también visualizarlas.
+
+## `Git push origin <rama>`
+Nos permite sincronizar los cambios del repositorio local con el remoto.
+
+
 
 
 
