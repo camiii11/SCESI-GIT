@@ -136,6 +136,12 @@ La integración continua mediante commits frecuentes facilita la integración de
   - `ci`: Cambios de integración.
   - `refactor`: Refactorización de código.
   - `test`: Refactorización de código existente.
+ 
+# APUNTES DE CLASE GIT - 7ma Clase
+## Deshaciendo cambios en Git
+Exploramos métodos para revertir el último commit en Git.
+- `git revert HEAD`
+
 
 
 
