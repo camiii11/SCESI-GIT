@@ -29,7 +29,14 @@ HEAD
 
 Es un puntero en GIT que indica la última confirmación realizada.
 
-
+COMANDOS AVANZADOS EN CLASE 
+    git add <archivo>: Agrega cambios en un archivo al área de preparación.
+    git status: Muestra el estado actual del repositorio.
+    git commit -m "mensaje": Crea un nuevo commit con un mensaje descriptivo.
+    git restore <archivo>: Deshace cambios en un archivo y lo restaura.
+    git log: Muestra un registro de todos los commits.
+    git commit -am -m "mensaje": Agrega y hace commit de archivos modificados en un paso.
+    git checkout <rama>: Cambia a una rama específica del repositorio.
 
 
 
