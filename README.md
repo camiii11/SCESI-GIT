@@ -46,6 +46,25 @@ COMANDOS REALIZADOS EN CLASE
 
 **git checkout <rama>:** Cambia a una rama específica del repositorio.
 
+# **APUNTES DE CLASE GIT - 2da Clase**
+
+Las ramas en Git no son propias de este sistema, más bien funcionan como nuevos apuntadores que permiten tener un punto de partida con un commit inicial. Es importante entender que las ramas no se fusionan nuevamente después de ser creadas.
+
+Cuando creamos un commit inicial en una rama, esto nos ayuda a rastrear desde dónde se generan más copias y bifurcaciones. Esto resulta fundamental para trabajar en equipo, ya que permite un desarrollo no lineal y colaborativo.
+
+Es fundamental que cada rama tenga un nombre que especifique claramente su propósito y lo que se está trabajando en ella.
+
+Para trabajar con ramas en Git, utilizamos los siguientes comandos:
+- `git branch`: para crear una nueva rama.
+- `git switch`: para cambiar de una rama a otra.
+- `git merge`: para fusionar ramas.
+- `git branch -a`: para visualizar todas las ramas, lo que nos ayuda a decidir cuáles eliminar.
+
+**ELIMINAR RAMAS**
+¿Por qué? Para mantener limpio el espacio de trabajo.
+- `git branch -d nombreDeRama`: para eliminar una rama específica.
+
+
 
 
 
